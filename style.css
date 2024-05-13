@@ -1,0 +1,707 @@
+*{
+    padding:0;
+    margin:0;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    height:4893px;
+    width: 100%;
+    background-color: rgba(252, 251, 255, 1);
+    align-items: center;
+    padding-top: 44px;
+}
+.firstPage{
+    display:flex;
+    flex-direction: column;
+    width:1200px;
+    height: 616px;
+    
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 56px;
+}
+.name{
+    font-size: 24px;
+    color:rgba(36, 77, 77, 1);
+}
+.navigation{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:50px;
+    font-size: 16px;
+    color:rgba(22, 22, 22, 1);
+}
+.navigation p:hover{
+    color: rgb(19, 0, 227);
+}
+.rightNav{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.loupe{
+    color: rgba(36, 77, 77, 1);
+}
+.loupe:hover{
+    color:rgb(19, 0, 227);
+}
+.line1{
+    position: relative;
+    background-color:rgba(36, 77, 77, 1);
+    width:10px;
+    height: 2px;
+    top:1px;
+    right:10px;
+}
+.line2{
+    position: relative;
+    background-color:rgba(36, 77, 77, 1);
+    width:20px;
+    height: 2px;
+    top:4px;
+    right:10px;
+}
+.line3{
+    position: relative;
+    background-color:rgba(36, 77, 77, 1);
+    width:10px;
+    height: 2px;
+    top:8px;
+    right:0px;
+}
+.help{
+    display: flex;
+    flex-direction: row;
+}
+.aboutFurniture{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 560px;
+    background-color: rgba(21, 68, 68, 1);
+}
+.text{
+    color: white;
+    margin: 100px 90px 30px 90px;
+}
+.text h4{
+    font-size: 56px;
+}
+.text p{
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 25px;
+}
+.btn{
+    background-color: white;
+    width: 173px;
+    height: 56px;
+    color:rgba(21, 68, 68, 1);
+    font-size: 20px;
+    line-height: 25px;
+    border: none;
+    margin-left: 90px;
+}
+.btn:hover{
+    border: 2px solid rgb(7, 55, 55);
+}
+.companies{
+    display: flex;
+    flex-direction: column;
+    width: 1082px;
+    height: 134px;
+    text-align: center;
+    margin-top: 100px;
+}
+.trustedCompanies{
+    font-size: 32px;
+    color:rgba(36, 77, 77, 1);
+}
+.brands{
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    padding-top: 30px;
+}
+.mastercard{
+    width:66px ;
+    height: 51px;
+}
+.airbnb{
+    width: 125px;
+    height: 39px;
+}
+.uber{
+    width: 97px;
+    height: 34px;
+}
+.paypal{
+    width:106px ;
+    height:37px ;
+}
+.visa{
+    width: 89px;
+    height:32px ;
+}
+.stripe{
+    width: 97px;
+    height: 37px;
+}
+.secondPage{
+    display: flex;
+    flex-direction: row;
+    width: 1168px;
+    height: 612px;
+    margin-top: 100px;
+}
+.picture{
+    position:relative;
+    width: 631px;
+    height: 612px;
+}
+.sofaImg{
+    z-index:2;
+    position: absolute;
+}
+.backgroundImg{
+   z-index: 1;
+   position: absolute;
+   top:25px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 437px;
+    height: 517px;
+    padding-left: 90px;
+    padding-top: 50px;
+}
+.aboutUs h4{
+    font-size: 32px;
+    line-height: 40px;
+    color:rgba(36, 77, 77, 1);
+}
+.aboutUs p{
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 15px;
+    color:rgba(68, 68, 68, 1);
+}
+.quality{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    gap:20px;
+    width: 376px;
+    height:92px ;
+}
+.quality img{
+    width: 50px;
+    height: 50px;
+}
+.quality h5{
+    font-size: 20px;
+    line-height: 26px;
+    color:rgba(36, 77, 77, 1);
+}
+.quality p{
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(56, 55, 56, 1);
+    margin-top: 10px;
+}
+.secure{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    gap:20px;
+}
+.secure img{
+    width: 50px;
+    height: 50px;
+}
+.secure h5{
+    font-size: 20px;
+    line-height: 26px;
+    color:rgba(36, 77, 77, 1);
+}
+.secure p{
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(56, 55, 56, 1);
+    margin-top: 10px;
+}
+.freeShopping{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    gap:20px;
+}
+.freeShopping img{
+    width: 50px;
+    height: 50px;
+}
+.freeShopping h5{
+    font-size: 20px;
+    line-height: 26px;
+    color:rgba(36, 77, 77, 1);
+}
+.freeShopping p{
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(56, 55, 56, 1);
+    margin-top: 10px;
+}
+.thirdPage{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 585px;
+    margin-top: 100px;
+}
+.description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.descriptionText{
+    width: 820px;
+    height: 122px;
+}
+.descriptionText h4{
+    font-size: 32px;
+    line-height: 52px;
+    color: rgba(36, 36, 36, 1);
+}
+.descriptionText p{
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(56, 55, 56, 1);
+    margin-top: 15px;
+}
+.pointers{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 15px;
+}
+.pointers img{
+    width: 40px;
+    height: 40px;
+    margin-top: 70px;
+}
+.kindsFurniture{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.firstGroup{
+    display: flex;
+    flex-direction: column;
+    width:380px ;
+    height: 382px;
+    box-shadow: -10px 10px 10px rgb(221, 221, 221);
+}
+.aboutChair{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px 5px 20px;
+}
+.aboutChair p{
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(36, 36, 36, 1);
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 20px 20px 20px;
+}
+.price p{
+    font-size: 24px;
+    line-height: 31px;
+    color: rgba(21, 68, 68, 1);
+}
+.btnGreen{
+    width:79px ;
+    height:32px ;
+    border: none;
+    background-color: rgba(36, 77, 77, 1);
+    color:white;
+    font-size: 12px;
+    line-height: 21px;
+}
+.secondGroup{
+    display: flex;
+    flex-direction: column;
+    width:380px ;
+    height: 382px;
+    box-shadow: -10px 10px 10px rgb(221, 221, 221);
+}
+.aboutChair2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px 5px 20px;
+}
+.aboutChair2 p{
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(36, 36, 36, 1);
+}
+.price2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 20px 20px 20px;
+}
+.price2 p{
+    font-size: 24px;
+    line-height: 31px;
+    color: rgba(21, 68, 68, 1);
+}
+.btnGreen{
+    width:79px ;
+    height:32px ;
+    border: none;
+    background-color: rgba(36, 77, 77, 1);
+    color:white;
+    font-size: 12px;
+    line-height: 21px;
+}
+.thirdGroup{
+    display: flex;
+    flex-direction: column;
+    width:380px ;
+    height: 382px;
+    box-shadow: -10px 10px 10px rgb(221, 221, 221);
+}
+
+.btnGreen{
+    width:79px ;
+    height:32px ;
+    border: none;
+    background-color: rgba(36, 77, 77, 1);
+    color:white;
+    font-size: 12px;
+    line-height: 21px;
+}
+.fourthPage{
+    display: flex;
+    flex-direction: column;
+    width: 1187px;
+    height: 593px;
+    margin-top: 70px;
+}
+.allFurniture{
+    font-size: 32px;
+    line-height: 48px;
+    color: rgba(36, 36, 36, 1);
+    text-align: center;
+}
+.shop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+.room p{
+    margin-top: 25px;
+    font-size: 24px;
+    line-height: 27px;
+    color:rgba(21, 68, 68, 1);
+}
+.room img{
+    margin-left:40px;
+}
+.shopBy p{
+    font-size: 24px;
+    line-height: 27px;
+    color:rgba(145, 144, 144, 1);
+}
+.rooms{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    width: 577px;
+    height: 410px;
+}
+.middleImg{
+    position: relative;
+    z-index: 3;
+    bottom:72px;
+    left:20px;
+}
+.topRectangle{
+   position: relative;
+   z-index: 2;
+}
+.bottomRectangle{
+    position: relative;
+    z-index: 1;
+    bottom:142px;
+    left:400px;
+}
+.roomCategory{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    width: 474px;
+    height: 337px;
+    margin-left: 220px;
+    margin-top: 70px;
+}
+.leftColumn{
+    display: flex;
+    flex-direction: column;
+}
+.rightColumn{
+    display: flex;
+    flex-direction: column;
+}
+.separateRoom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    height:90px ;
+    border:1.5px solid #D9DCE5;
+    margin-top: 10px;
+}
+.separateRoom p{
+    font-size: 16px;
+    line-height: 21px;
+    color:rgba(128, 128, 128, 1);
+    margin-top: 10px;
+}
+.separateRoom img{
+    margin-top: 15px;
+}
+.painted{
+    background-color: rgba(21, 68, 68, 1);
+}
+.painted p{
+    color:white;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top:10px;
+}
+.fifthPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.fotoDresser{
+    width: 564px;
+    height: 492px;
+}
+.ellipse{
+    position: relative;
+    z-index:1;
+    width: 492px;
+    height: 492px;
+    right:20px;
+}
+.dresser{
+    position: relative;
+    z-index: 2;
+    width: 459px;
+    height: 492px;
+    left:105px;
+    bottom:497px;
+}
+.customers{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.customersText{
+    width: 535px;
+    height: 191px;
+    margin-top: 100px;
+}
+.customersText h4{
+    font-size: 32px;
+    line-height: 48px;
+    color: rgba(36, 36, 36, 1);
+}
+.customersText p{
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(56, 55, 56, 1);
+    margin-top: 15px;
+}
+.customer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 30px;
+}
+.rating{
+    margin-top: 5px;
+}
+.rating p{
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
+.rating img{
+    margin-top: 5px;
+}
+.sixthPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    height: 394px;
+    background-color: rgba(244, 246, 246, 1);
+    margin-top: 100px;
+}
+.subscribeText{
+    text-align: center;
+    margin-top: 70px;
+    width: 605px;
+    height: 96px;
+}
+.subscribeText h4{
+    font-size: 32px;
+    line-height: 48px;
+    color:rgba(34, 34, 34, 1);
+}
+.subscribeText p{
+    font-size: 16px;
+    line-height: 24px;
+    color:rgba(34, 34, 34, 1);
+    margin-top: 15px;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 472px;
+    height: 67px;
+    background-color: white;
+    margin-top: 70px;
+}
+.emailEnter{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-left: 15px;
+}
+.emailEnter img{
+    width:16px ;
+    height: 16px;
+    margin-top: 25px;
+}
+.emailEnter input{
+    font-size: 16px;
+    line-height: 22px;
+    color:rgba(186, 186, 186, 1);
+    border:none;
+}
+.register{
+    width: 125px;
+    height: 52px;
+    margin-top: 7px;
+    margin-right: 15px;
+}
+.seventhPage{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 1440px;
+    height: 442px;
+    background-color:rgba(48, 95, 100, 1) ;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color:white;
+    margin-top: 100px;
+}
+.firstColumn h5{
+    font-size: 24px;
+}
+.firstColumn p{
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 15px;
+    width: 308px;
+    height: 78px;
+}
+.firstColumn h6{
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+.socialNetwork{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+.socialNetwork img{
+    width: 20px;
+    height: 20px;
+}
+.column h6{
+    font-size: 20px;
+    line-height: 26px;
+}
+.column p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.fourthColumn h6{
+    font-size: 20px;
+    line-height: 26px;
+}
+.fourthColumn p{
+    font-size: 18px;
+    margin-top: 10px;
+    width: 240px;
+}
+.address{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:253px ;
+    height:48px ;
+    background-color: white;
+    margin-top: 20px;
+}
+.address p{
+    font-size: 16px;
+    color: rgba(133, 147, 149, 1);
+    margin-top: 13px;
+    margin-left: 12px;
+}
+.address img{
+    width:28px ;
+    height: 28px;
+    margin-top: 8px;
+    margin-right: 12px;
+}
+.footer{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    height: 50px;
+    border-top: 1px solid rgba(64, 121, 128, 1);
+    margin-top: 80px;
+}
+.footer p{
+    margin-top: 15px;
+}
